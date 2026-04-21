@@ -14,7 +14,9 @@ public class Config {
     public static final String OPENAI_MODEL = "gpt-4o";
 
     // Selenium Configuration
-    public static final boolean HEADLESS = false;
+    public static final boolean HEADLESS = System.getenv("HEADLESS") != null
+            ? Boolean.parseBoolean(System.getenv("HEADLESS"))
+            : false;
     public static final int PAGE_LOAD_TIMEOUT = 30; // seconds
     public static final int IMPLICIT_WAIT = 10; // seconds
 

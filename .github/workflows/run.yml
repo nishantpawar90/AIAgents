@@ -1,0 +1,51 @@
+name: Run AI Agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: 'Target URL to scrape and generate tests for'
+        required: true
+        default: 'https://www.saucedemo.com/'
+      scenario:
+        description: 'Test scenario description (optional)'
+        required: false
+        default: 'Login with user standard_user and password secret_sauce and add the item Sauce Labs Bike Light to cart. Click on cart icon.'
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+          cache: 'maven'
+
+      - name: Install Chrome
+        uses: browser-actions/setup-chrome@v1
+        with:
+          chrome-version: 'stable'
+
+      - name: Run AI Agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          HEADLESS: 'true'
+        run: |
+          if [ -n "${{ github.event.inputs.scenario }}" ]; then
+            mvn compile exec:java -Dexec.args="${{ github.event.inputs.url }} --scenario ${{ github.event.inputs.scenario }}"
+          else
+            mvn compile exec:java -Dexec.args="${{ github.event.inputs.url }}"
+          fi
+
+      - name: Upload generated test artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-tests
+          path: output/
