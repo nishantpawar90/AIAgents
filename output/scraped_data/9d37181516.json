@@ -1,0 +1,77 @@
+{
+  "url": "https://www.saucedemo.com/",
+  "title": "Swag Labs",
+  "timestamp": "2026-04-21T04:20:57.186266900Z",
+  "element_count": 6,
+  "elements": [
+    {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "id": "user-name",
+        "name": "user-name",
+        "class": "input_error form_input",
+        "type": "text",
+        "placeholder": "Username"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "outer_html_snippet": "<input class=\"input_error form_input\" placeholder=\"Username\" type=\"text\" data-test=\"username\" id=\"user-name\" name=\"user-name\" autocorrect=\"off\" autocapitalize=\"none\" value=\"\">"
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "id": "password",
+        "name": "password",
+        "class": "input_error form_input",
+        "type": "password",
+        "placeholder": "Password"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "outer_html_snippet": "<input class=\"input_error form_input\" placeholder=\"Password\" type=\"password\" data-test=\"password\" id=\"password\" name=\"password\" autocorrect=\"off\" autocapitalize=\"none\" value=\"\">"
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "id": "login-button",
+        "name": "login-button",
+        "class": "submit-button btn_action",
+        "type": "submit",
+        "value": "Login"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "outer_html_snippet": "<input type=\"submit\" class=\"submit-button btn_action\" data-test=\"login-button\" id=\"login-button\" name=\"login-button\" value=\"Login\">"
+    },
+    {
+      "tag": "form",
+      "text": "",
+      "attributes": {
+        "action": "https://www.saucedemo.com/",
+        "method": "get"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "outer_html_snippet": "<form><div class=\"form_group\"><input class=\"input_error form_input\" placeholder=\"Username\" type=\"text\" data-test=\"username\" id=\"user-name\" name=\"user-name\" autocorrect=\"off\" autocapitalize=\"none\" value=\"\"></div><div class=\"form_group\"><input class=\"input_error form_input\" placeholder=\"Password\" type=\"password\" data-test=\"password\" id=\"password\" name=\"password\" autocorrect=\"off\" autocapitalize=\"none\" value=\"\"></div><div class=\"error-message-container\"></div><input type=\"submit\" class=\"submit-butt"
+    },
+    {
+      "tag": "h4",
+      "text": "Accepted usernames are:",
+      "attributes": {},
+      "is_displayed": true,
+      "is_enabled": true,
+      "outer_html_snippet": "<h4>Accepted usernames are:</h4>"
+    },
+    {
+      "tag": "h4",
+      "text": "Password for all users:",
+      "attributes": {},
+      "is_displayed": true,
+      "is_enabled": true,
+      "outer_html_snippet": "<h4>Password for all users:</h4>"
+    }
+  ]
+}

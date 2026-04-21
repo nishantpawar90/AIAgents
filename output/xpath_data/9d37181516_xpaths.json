@@ -1,0 +1,1263 @@
+{
+  "url": "https://www.saucedemo.com/",
+  "title": "Swag Labs",
+  "element_count": 82,
+  "elements": [
+    {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "id": "user-name",
+        "name": "user-name",
+        "class": "input_error form_input",
+        "type": "text",
+        "placeholder": "Username"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//input[@id='user-name']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//input[@name='user-name']",
+        "//input[@placeholder='Username']",
+        "//input[@type='text' and @name='user-name']"
+      ]
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "id": "password",
+        "name": "password",
+        "class": "input_error form_input",
+        "type": "password",
+        "placeholder": "Password"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//input[@id='password']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//input[@name='password']",
+        "//input[@placeholder='Password']",
+        "//input[@type='password' and @name='password']"
+      ]
+    },
+    {
+      "tag": "input",
+      "text": "",
+      "attributes": {
+        "id": "login-button",
+        "name": "login-button",
+        "class": "submit-button btn_action",
+        "type": "submit",
+        "value": "Login"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//input[@id='login-button']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//input[@name='login-button']",
+        "//input[@type='submit' and @name='login-button']"
+      ]
+    },
+    {
+      "tag": "form",
+      "text": "",
+      "attributes": {
+        "action": "https://www.saucedemo.com/",
+        "method": "get"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//form",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "h4",
+      "text": "Accepted usernames are:",
+      "attributes": {},
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//h4[normalize-space()='Accepted usernames are:']",
+      "xpath_strategy": "text",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "h4",
+      "text": "Password for all users:",
+      "attributes": {},
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//h4[normalize-space()='Password for all users:']",
+      "xpath_strategy": "text",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "button",
+      "text": "Open Menu",
+      "attributes": {
+        "id": "react-burger-menu-btn",
+        "type": "button"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='react-burger-menu-btn']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[normalize-space()='Open Menu']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attributes": {
+        "id": "react-burger-cross-btn",
+        "type": "button"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='react-burger-cross-btn']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-backpack",
+        "name": "add-to-cart-sauce-labs-backpack",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-backpack']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-backpack']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-backpack']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-bike-light",
+        "name": "add-to-cart-sauce-labs-bike-light",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-bike-light']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-bike-light']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-bike-light']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-bolt-t-shirt",
+        "name": "add-to-cart-sauce-labs-bolt-t-shirt",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-bolt-t-shirt']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-bolt-t-shirt']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-fleece-jacket",
+        "name": "add-to-cart-sauce-labs-fleece-jacket",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-fleece-jacket']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-fleece-jacket']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-fleece-jacket']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-onesie",
+        "name": "add-to-cart-sauce-labs-onesie",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-onesie']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-onesie']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-onesie']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-test.allthethings()-t-shirt-(red)",
+        "name": "add-to-cart-test.allthethings()-t-shirt-(red)",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-test.allthethings()-t-shirt-(red)']",
+        "//button[@type='submit' and @name='add-to-cart-test.allthethings()-t-shirt-(red)']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "inventory_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='inventory_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "about_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://saucelabs.com/"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='about_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://saucelabs.com/']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "logout_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='logout_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "reset_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='reset_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "shopping_cart_link"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_4_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_4_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Backpack",
+      "attributes": {
+        "id": "item_4_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_4_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Backpack']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_0_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_0_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Bike Light",
+      "attributes": {
+        "id": "item_0_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_0_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Bike Light']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_1_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_1_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Bolt T-Shirt",
+      "attributes": {
+        "id": "item_1_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_1_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Bolt T-Shirt']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_5_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_5_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Fleece Jacket",
+      "attributes": {
+        "id": "item_5_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_5_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Fleece Jacket']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_2_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_2_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Onesie",
+      "attributes": {
+        "id": "item_2_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_2_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Onesie']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_3_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_3_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Test.allTheThings() T-Shirt (Red)",
+      "attributes": {
+        "id": "item_3_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_3_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Test.allTheThings() T-Shirt (Red)']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Twitter",
+      "attributes": {
+        "href": "https://twitter.com/saucelabs"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@href='https://twitter.com/saucelabs']",
+      "xpath_strategy": "href",
+      "alternate_xpaths": [
+        "//a[normalize-space()='Twitter']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Facebook",
+      "attributes": {
+        "href": "https://www.facebook.com/saucelabs"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@href='https://www.facebook.com/saucelabs']",
+      "xpath_strategy": "href",
+      "alternate_xpaths": [
+        "//a[normalize-space()='Facebook']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "LinkedIn",
+      "attributes": {
+        "href": "https://www.linkedin.com/company/sauce-labs/"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@href='https://www.linkedin.com/company/sauce-labs/']",
+      "xpath_strategy": "href",
+      "alternate_xpaths": [
+        "//a[normalize-space()='LinkedIn']"
+      ]
+    },
+    {
+      "tag": "select",
+      "text": "Name (A to Z)\nName (Z to A)\nPrice (low to high)\nPrice (high to low)",
+      "attributes": {
+        "class": "product_sort_container",
+        "type": "select-one",
+        "value": "az"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//select[normalize-space()='Name (A to Z)\nName (Z to A)\nPrice (low to high)\nPrice (high to low)']",
+      "xpath_strategy": "text",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "bm-icon",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUC",
+        "alt": "Open Menu"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg",
+        "alt": "Sauce Labs Backpack"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg",
+        "alt": "Sauce Labs Bike Light"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg",
+        "alt": "Sauce Labs Bolt T-Shirt"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg",
+        "alt": "Sauce Labs Fleece Jacket"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg",
+        "alt": "Sauce Labs Onesie"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg",
+        "alt": "Test.allTheThings() T-Shirt (Red)"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "nav",
+      "text": "",
+      "attributes": {
+        "class": "bm-item-list"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//nav",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "footer",
+      "text": "Twitter\nFacebook\nLinkedIn\n© 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy",
+      "attributes": {
+        "class": "footer"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//footer",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "button",
+      "text": "Open Menu",
+      "attributes": {
+        "id": "react-burger-menu-btn",
+        "type": "button"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='react-burger-menu-btn']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[normalize-space()='Open Menu']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "",
+      "attributes": {
+        "id": "react-burger-cross-btn",
+        "type": "button"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='react-burger-cross-btn']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-backpack",
+        "name": "add-to-cart-sauce-labs-backpack",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-backpack']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-backpack']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-backpack']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-bike-light",
+        "name": "add-to-cart-sauce-labs-bike-light",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-bike-light']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-bike-light']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-bike-light']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-bolt-t-shirt",
+        "name": "add-to-cart-sauce-labs-bolt-t-shirt",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-bolt-t-shirt']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-bolt-t-shirt']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-fleece-jacket",
+        "name": "add-to-cart-sauce-labs-fleece-jacket",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-fleece-jacket']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-fleece-jacket']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-fleece-jacket']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-sauce-labs-onesie",
+        "name": "add-to-cart-sauce-labs-onesie",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-sauce-labs-onesie']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-sauce-labs-onesie']",
+        "//button[@type='submit' and @name='add-to-cart-sauce-labs-onesie']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "button",
+      "text": "Add to cart",
+      "attributes": {
+        "id": "add-to-cart-test.allthethings()-t-shirt-(red)",
+        "name": "add-to-cart-test.allthethings()-t-shirt-(red)",
+        "class": "btn btn_primary btn_small btn_inventory",
+        "type": "submit"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//button[@id='add-to-cart-test.allthethings()-t-shirt-(red)']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//button[@name='add-to-cart-test.allthethings()-t-shirt-(red)']",
+        "//button[@type='submit' and @name='add-to-cart-test.allthethings()-t-shirt-(red)']",
+        "//button[normalize-space()='Add to cart']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "inventory_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='inventory_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "about_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://saucelabs.com/"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='about_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://saucelabs.com/']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "logout_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='logout_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "reset_sidebar_link",
+        "class": "bm-item menu-item",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='reset_sidebar_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "class": "shopping_cart_link"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_4_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_4_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Backpack",
+      "attributes": {
+        "id": "item_4_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_4_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Backpack']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_0_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_0_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Bike Light",
+      "attributes": {
+        "id": "item_0_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_0_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Bike Light']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_1_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_1_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Bolt T-Shirt",
+      "attributes": {
+        "id": "item_1_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_1_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Bolt T-Shirt']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_5_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_5_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Fleece Jacket",
+      "attributes": {
+        "id": "item_5_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_5_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Fleece Jacket']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_2_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_2_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Sauce Labs Onesie",
+      "attributes": {
+        "id": "item_2_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_2_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Sauce Labs Onesie']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "attributes": {
+        "id": "item_3_img_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_3_img_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Test.allTheThings() T-Shirt (Red)",
+      "attributes": {
+        "id": "item_3_title_link",
+        "href": "https://www.saucedemo.com/inventory.html#"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@id='item_3_title_link']",
+      "xpath_strategy": "id",
+      "alternate_xpaths": [
+        "//a[@href='https://www.saucedemo.com/inventory.html#']",
+        "//a[normalize-space()='Test.allTheThings() T-Shirt (Red)']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Twitter",
+      "attributes": {
+        "href": "https://twitter.com/saucelabs"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@href='https://twitter.com/saucelabs']",
+      "xpath_strategy": "href",
+      "alternate_xpaths": [
+        "//a[normalize-space()='Twitter']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "Facebook",
+      "attributes": {
+        "href": "https://www.facebook.com/saucelabs"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@href='https://www.facebook.com/saucelabs']",
+      "xpath_strategy": "href",
+      "alternate_xpaths": [
+        "//a[normalize-space()='Facebook']"
+      ]
+    },
+    {
+      "tag": "a",
+      "text": "LinkedIn",
+      "attributes": {
+        "href": "https://www.linkedin.com/company/sauce-labs/"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//a[@href='https://www.linkedin.com/company/sauce-labs/']",
+      "xpath_strategy": "href",
+      "alternate_xpaths": [
+        "//a[normalize-space()='LinkedIn']"
+      ]
+    },
+    {
+      "tag": "select",
+      "text": "Name (A to Z)\nName (Z to A)\nPrice (low to high)\nPrice (high to low)",
+      "attributes": {
+        "class": "product_sort_container",
+        "type": "select-one",
+        "value": "az"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//select[normalize-space()='Name (A to Z)\nName (Z to A)\nPrice (low to high)\nPrice (high to low)']",
+      "xpath_strategy": "text",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "bm-icon",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUC",
+        "alt": "Open Menu"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/sauce-backpack-1200x1500.0a0b85a385945026062b.jpg",
+        "alt": "Sauce Labs Backpack"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/bike-light-1200x1500.37c843b09a7d77409d63.jpg",
+        "alt": "Sauce Labs Bike Light"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/bolt-shirt-1200x1500.c2599ac5f0a35ed5931e.jpg",
+        "alt": "Sauce Labs Bolt T-Shirt"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/sauce-pullover-1200x1500.51d7ffaf301e698772c8.jpg",
+        "alt": "Sauce Labs Fleece Jacket"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/red-onesie-1200x1500.2ec615b271ef4c3bc430.jpg",
+        "alt": "Sauce Labs Onesie"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "img",
+      "text": "",
+      "attributes": {
+        "class": "inventory_item_img",
+        "src": "https://www.saucedemo.com/static/media/red-tatt-1200x1500.30dadef477804e54fc7b.jpg",
+        "alt": "Test.allTheThings() T-Shirt (Red)"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//img",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "nav",
+      "text": "",
+      "attributes": {
+        "class": "bm-item-list"
+      },
+      "is_displayed": false,
+      "is_enabled": true,
+      "primary_xpath": "//nav",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    },
+    {
+      "tag": "footer",
+      "text": "Twitter\nFacebook\nLinkedIn\n© 2026 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy",
+      "attributes": {
+        "class": "footer"
+      },
+      "is_displayed": true,
+      "is_enabled": true,
+      "primary_xpath": "//footer",
+      "xpath_strategy": "tag-only",
+      "alternate_xpaths": []
+    }
+  ]
+}
